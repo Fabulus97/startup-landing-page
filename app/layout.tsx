@@ -25,12 +25,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/favicon.ico',
+        type: 'image/x-icon',
+      },
+      {
         url: '/logo-lia.svg?v=2',
         type: 'image/svg+xml',
       },
     ],
     apple: '/logo-lia.svg?v=2',
-    shortcut: '/logo-lia.svg?v=2',
+    shortcut: '/favicon.ico',
   },
 }
 
