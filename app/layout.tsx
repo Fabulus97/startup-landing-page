@@ -1,0 +1,50 @@
+import React from "react"
+import type { Metadata } from 'next'
+import { Inter, Open_Sans } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
+import './globals.css'
+
+const inter = Inter({ 
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const openSans = Open_Sans({ 
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: '--font-open-sans',
+  display: 'swap',
+});
+
+export const metadata: Metadata = {
+  title: 'lia for Startup - Automatizza i solleciti per la tua startup',
+  description: '3 mesi gratis per startup innovative. Riduci del 70% il tempo di incasso delle fatture scadute con il nostro software AI.',
+  generator: 'v0.app',
+  icons: {
+    icon: [
+      {
+        url: '/logo-lia.svg?v=2',
+        type: 'image/svg+xml',
+      },
+    ],
+    apple: '/logo-lia.svg?v=2',
+    shortcut: '/logo-lia.svg?v=2',
+  },
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="it">
+      <body className={`${inter.variable} ${openSans.variable} font-sans antialiased`}>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  )
+}
