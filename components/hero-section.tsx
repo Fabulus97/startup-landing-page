@@ -10,7 +10,7 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-medium bg-primary text-primary-foreground border-primary">
           <Sparkles className="w-4 h-4 mr-2 text-primary-foreground" />
-          3 mesi gratis per startup innovative
+          Onboarding gratis e 100 fatture gratis
         </Badge>
         
         <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight text-balance mb-6">
@@ -27,7 +27,7 @@ export function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <Button size="lg" className="gap-2 text-base px-8 bg-[#DEFF0A] text-[#1A1A1A] hover:bg-[#DEFF0A]/90" asChild>
             <a href="#signup">
-              Inizia gratis per 3 mesi
+              Inizia con onboarding e 100 fatture gratis
               <ArrowRight className="w-4 h-4" />
             </a>
           </Button>
@@ -62,8 +62,8 @@ export function HeroSection() {
               <Sparkles className="w-5 h-5 text-primary-foreground" />
             </div>
             <div className="text-left">
-              <p className="text-2xl font-bold text-foreground">3 mesi</p>
-              <p className="text-sm text-muted-foreground">Gratis per startup</p>
+              <p className="text-2xl font-bold text-foreground">100</p>
+              <p className="text-sm text-muted-foreground">Fatture gratis</p>
             </div>
           </div>
         </div>

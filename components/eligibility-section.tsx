@@ -9,13 +9,13 @@ const requirements = [
   },
   {
     icon: Euro,
-    title: "Raising inferiore a €5M",
-    description: "Il programma è riservato a startup con una raccolta complessiva di capitali inferiore a 5 milioni di euro."
+    title: "Raising inferiore a €3M",
+    description: "Il programma è riservato a startup con una raccolta complessiva di capitali inferiore a 3 milioni di euro."
   },
   {
     icon: FileCheck,
-    title: "Ricavi inferiori a 3M€",
-    description: "Il programma è riservato a startup con ricavi dell'anno precedente a quello in corso, inferiore a 3 milioni di euro."
+    title: "Ricavi inferiori a 1M€",
+    description: "Il programma è riservato a startup con ricavi dell'anno precedente a quello in corso, inferiore a 1 milione di euro."
   }
 ]
 

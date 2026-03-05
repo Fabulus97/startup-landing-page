@@ -20,7 +20,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: 'lia for Startup - Automatizza i solleciti per la tua startup',
-  description: '3 mesi gratis per startup innovative. Riduci del 70% il tempo di incasso delle fatture scadute con il nostro software AI.',
+  description: 'Onboarding gratis e 100 fatture gratis per startup innovative. Riduci del 70% il tempo di incasso delle fatture scadute con il nostro software AI.',
   generator: 'v0.app',
   icons: {
     icon: [

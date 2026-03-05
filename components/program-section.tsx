@@ -35,11 +35,11 @@ export function ProgramSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-foreground mb-2">
-                    3 mesi completamente gratuiti
+                    Onboarding gratuito e 100 fatture gratis
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Inizia subito senza alcun costo. Prova tutte le funzionalità 
-                    e misura i risultati sulla tua startup.
+                    Parti subito senza alcun costo: ti affianchiamo nell&apos;onboarding 
+                    e puoi gestire le prime 100 fatture gratuitamente.
                   </p>
                 </div>
               </div>
@@ -52,11 +52,11 @@ export function ProgramSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-foreground mb-2">
-                    Prezzo agevolato pay-per-use
+                    Sconti sull&apos;abbonamento fino a 2 anni
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Dopo i 3 mesi gratuiti, paghi solo in base all&apos;utilizzo effettivo. 
-                    Tariffe speciali riservate alle startup del programma.
+                    Dopo le 100 fatture gratis, hai il 30% di sconto sull&apos;abbonamento per il primo anno 
+                    e il 15% per il secondo anno, con tariffe dedicate alle startup del programma.
                   </p>
                 </div>
               </div>
@@ -98,8 +98,8 @@ export function ProgramSection() {
             <div className="mt-8 p-4 rounded-xl bg-muted/50">
               <p className="text-sm text-muted-foreground">
                 <span className="font-semibold text-foreground">Nota:</span> Il prezzo 
-                post-trial viene calcolato in base al volume di fatture gestite e 
-                al valore degli incassi recuperati.
+                dopo le 100 fatture gratuite e gli sconti dedicati ai primi due anni di abbonamento 
+                viene calcolato in base al volume di fatture gestite e al valore degli incassi recuperati.
               </p>
             </div>
           </div>
