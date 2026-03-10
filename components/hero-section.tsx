@@ -1,33 +1,27 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Sparkles, TrendingDown, Clock } from "lucide-react"
+import { ArrowRight, TrendingDown, Clock, Sparkles } from "lucide-react"
 
 export function HeroSection() {
   return (
     <section className="pt-32 pb-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <Badge variant="secondary" className="mb-6 px-4 py-2 text-sm font-medium bg-primary text-primary-foreground border-primary">
-          <Sparkles className="w-4 h-4 mr-2 text-primary-foreground" />
-          Onboarding gratis e 100 fatture gratis
-        </Badge>
-        
         <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight text-balance mb-6">
           Il tuo assistente AI per{" "}
-          <span className="bg-primary text-primary-foreground px-2 rounded">incassare le fatture</span>{" "}
-          mentre fai crescere la tua startup
+          <span className="bg-[#DEFF0A] text-[#1A1A1A] px-2 rounded">incassare le fatture</span>{" "}
+          e far crescere la tua Startup
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 text-pretty">
-          lia automatizza la gestione delle fatture scadute, permettendoti di concentrarti 
-          su ciò che conta davvero: costruire il tuo prodotto e scalare il business.
+          Lia accelera gli incassi e stabilizza il cash flow della tua azienda, 
+          permettendoti di concentrarti su ciò che conta davvero: costruire il tuo prodotto e scalare il business.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <Button size="lg" className="gap-2 text-base px-8 bg-[#DEFF0A] text-[#1A1A1A] hover:bg-[#DEFF0A]/90" asChild>
             <a href="#signup">
-              Inizia con onboarding e 100 fatture gratis
+              Carica subito le prime 100 fatture gratis
               <ArrowRight className="w-4 h-4" />
             </a>
           </Button>
@@ -65,6 +59,15 @@ export function HeroSection() {
               <p className="text-2xl font-bold text-foreground">100</p>
               <p className="text-sm text-muted-foreground">Fatture gratis</p>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-12 max-w-3xl mx-auto">
+          <p className="text-sm text-muted-foreground mb-6 uppercase tracking-wide">Trusted by</p>
+          <div className="flex items-center justify-center gap-10 md:gap-16">
+            <img src="/logo-tenity.svg" alt="Tenity" className="h-7 md:h-9 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+            <img src="/logo-flazio.svg" alt="Flazio" className="h-7 md:h-9 w-auto opacity-70 hover:opacity-100 transition-opacity" />
+            <img src="/logo-heu.png" alt="Heu" className="h-7 md:h-9 w-auto opacity-70 hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </div>

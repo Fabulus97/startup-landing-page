@@ -5,17 +5,17 @@ const requirements = [
   {
     icon: Building2,
     title: "Startup Innovativa o PMI Innovativa",
-    description: "Devi essere iscritta nella sezione speciale del Registro delle Imprese come startup innovativa o PMI innovativa."
+    description: "Devi essere iscritta nella sezione speciale del Registro delle Imprese come Startup innovativa o PMI innovativa."
   },
   {
     icon: Euro,
     title: "Raising inferiore a €3M",
-    description: "Il programma è riservato a startup con una raccolta complessiva di capitali inferiore a 3 milioni di euro."
+    description: "Il programma è riservato a Startup con una raccolta complessiva di capitali inferiore a 3 milioni di euro."
   },
   {
     icon: FileCheck,
     title: "Ricavi inferiori a 1M€",
-    description: "Il programma è riservato a startup con ricavi dell'anno precedente a quello in corso, inferiore a 1 milione di euro."
+    description: "Il programma è riservato a Startup con ricavi dell'anno precedente a quello in corso, inferiore a 1 milione di euro."
   }
 ]
 
@@ -31,7 +31,7 @@ export function EligibilitySection() {
             Chi può accedere al programma
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            lia for Startup è un programma esclusivo dedicato alle realtà innovative 
+            Lia for Startup è un programma esclusivo dedicato alle realtà innovative 
             italiane nelle prime fasi di crescita.
           </p>
         </div>

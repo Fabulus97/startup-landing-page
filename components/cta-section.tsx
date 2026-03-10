@@ -21,7 +21,7 @@ export function CTASection() {
             </h2>
             
             <p className="text-lg opacity-90 max-w-xl mx-auto mb-8">
-              Unisciti alle startup che hanno già scelto lia per automatizzare 
+              Unisciti alle Startup che hanno già scelto Lia per automatizzare 
               la gestione delle fatture scadute e ridurre i tempi di incasso.
             </p>
 

@@ -11,7 +11,7 @@ const features = [
   {
     icon: Bot,
     title: "AI che parla come te",
-    description: "lia comunica con i tuoi clienti in modo professionale e personalizzato, mantenendo il tono della tua azienda."
+    description: "Lia comunica con i tuoi clienti in modo professionale e personalizzato, mantenendo il tono della tua azienda."
   },
   {
     icon: RefreshCw,
@@ -52,7 +52,7 @@ export function FeaturesSection() {
             Tutto ciò che serve per incassare in automatico
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            lia non è solo uno strumento, è il processo stesso. Ti costruisce un flusso, 
+            Lia non è solo uno strumento, è il processo stesso. Ti costruisce un flusso, 
             lo ottimizza e lo gestisce per te.
           </p>
         </div>

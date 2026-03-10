@@ -19,8 +19,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'lia for Startup - Automatizza i solleciti per la tua startup',
-  description: 'Onboarding gratis e 100 fatture gratis per startup innovative. Riduci del 70% il tempo di incasso delle fatture scadute con il nostro software AI.',
+  title: 'Lia for Startup - Automatizza i solleciti per la tua Startup',
+  description: 'Carica le prime 100 fatture gratis per Startup innovative. Riduci del 70% il tempo di incasso delle fatture scadute con il nostro software AI.',
   generator: 'v0.app',
   icons: {
     icon: [

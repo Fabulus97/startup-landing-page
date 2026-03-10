@@ -18,10 +18,10 @@ export function ProgramSection() {
             Il Programma
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-            lia for Startup: cresci senza pensieri
+            Lia for Startup: cresci senza pensieri
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Un programma esclusivo pensato per supportare le startup innovative 
+            Un programma esclusivo pensato per supportare le Startup innovative 
             nella gestione del cash flow fin dai primi passi.
           </p>
         </div>
@@ -56,7 +56,7 @@ export function ProgramSection() {
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Dopo le 100 fatture gratis, hai il 30% di sconto sull&apos;abbonamento per il primo anno 
-                    e il 15% per il secondo anno, con tariffe dedicate alle startup del programma.
+                    e il 15% per il secondo anno, con tariffe dedicate alle Startup del programma.
                   </p>
                 </div>
               </div>

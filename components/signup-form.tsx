@@ -48,7 +48,7 @@ export function SignupForm() {
           </h3>
           <p className="text-muted-foreground">
             Ti contatteremo presto a <span className="font-medium text-foreground">{email}</span> per 
-            attivare il tuo accesso al programma lia for Startup.
+            attivare il tuo accesso al programma Lia for Startup.
           </p>
         </div>
       </div>
@@ -60,7 +60,7 @@ export function SignupForm() {
       <div className="max-w-md mx-auto">
         <div className="text-center mb-8">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-            Richiedi accesso al programma
+            Accelera i tuoi incassi con Lia
           </h3>
           <p className="text-muted-foreground">
             Inserisci la tua mail aziendale e ti contatteremo entro 24 ore.
@@ -95,7 +95,7 @@ export function SignupForm() {
               </>
             ) : (
               <>
-                Richiedi accesso gratuito
+                Voglio partecipare al programma
                 <ArrowRight className="w-4 h-4" />
               </>
             )}
