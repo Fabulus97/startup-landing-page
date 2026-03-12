@@ -9,7 +9,7 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img src="/logo-lia.svg" alt="Lia" className="w-8 h-8" />
-          <span className="font-semibold text-xl text-foreground">Lia</span>
+          <span className="font-semibold text-xl text-foreground">lia</span>
           <span className="ml-2 text-xs font-medium bg-primary text-primary-foreground px-2 py-0.5 rounded-full">
             for Startup
           </span>
